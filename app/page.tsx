@@ -37,7 +37,7 @@ export default function Home() {
           priority
         />
         <Link
-          href="#"
+          href="https://apps.apple.com/us/app/whisper-ai-assistant/id6720728513"
           className="block hover:opacity-80 transition-opacity mb-12"
         >
           <Image
@@ -57,8 +57,8 @@ export default function Home() {
           className="block"
         />
         <Link
-          href="#"
-          className="block hover:opacity-80 transition-opacity mb-12"
+          href="https://apps.apple.com/us/app/whisper-ai-assistant/id6720728513"
+          className="block hover:opacity-80 transition-opacity mt-8 mb-12"
         >
           <Image
             src={appStoreBtnImg}
