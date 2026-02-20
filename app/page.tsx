@@ -10,7 +10,7 @@ import footerImg from '../public/images/image-6-footer.svg';
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#07070b] flex flex-col items-center">
+    <main className="min-h-screen bg-[#060A17] flex flex-col items-center py-12">
       <div className="w-full max-w-md flex flex-col items-center overflow-hidden">
         <Image
           src={logoImg}
@@ -25,7 +25,7 @@ export default function Home() {
           alt="Header"
           width={341}
           height={154}
-          className="block"
+          className="block my-8"
           priority
         />
         <Image
@@ -36,7 +36,10 @@ export default function Home() {
           className="block"
           priority
         />
-        <Link href="#" className="block hover:opacity-80 transition-opacity">
+        <Link
+          href="#"
+          className="block hover:opacity-80 transition-opacity mb-12"
+        >
           <Image
             src={appStoreBtnImg}
             alt="Download on App Store"
@@ -53,7 +56,10 @@ export default function Home() {
           height={403}
           className="block"
         />
-        <Link href="#" className="block hover:opacity-80 transition-opacity">
+        <Link
+          href="#"
+          className="block hover:opacity-80 transition-opacity mb-12"
+        >
           <Image
             src={appStoreBtnImg}
             alt="Download on App Store"
