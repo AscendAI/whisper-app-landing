@@ -1,12 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import logoImg from '../public/images/image-1-logo.png';
-import topHeaderImg from '../public/images/image-2-topHeader.png';
-import phoneWithHandImg from '../public/images/image-3-phonewithhand.png';
-import appStoreBtnImg from '../public/images/image-4-appstorebutton.png';
-import bottomHeaderImg from '../public/images/image-5-bottomheaderwithlogo.png';
-import footerImg from '../public/images/image-6-footer.png';
+import logoImg from '../public/images/image-1-logo.svg';
+import topHeaderImg from '../public/images/image-2-topHeader.svg';
+import phoneWithHandImg from '../public/images/image-3-phonewithhand.svg';
+import appStoreBtnImg from '../public/images/image-4-appstorebutton.svg';
+import bottomHeaderImg from '../public/images/image-5-bottomheaderwithlogo.svg';
+import footerImg from '../public/images/image-6-footer.svg';
 
 export default function Home() {
   return (
@@ -23,13 +23,17 @@ export default function Home() {
         <Image
           src={topHeaderImg}
           alt="Header"
-          className="w-full h-auto block"
+          width={341}
+          height={154}
+          className="block"
           priority
         />
         <Image
           src={phoneWithHandImg}
           alt="Phone Showcase"
-          className="w-full h-auto block"
+          width={374}
+          height={472}
+          className="block"
           priority
         />
         <Link href="#" className="block hover:opacity-80 transition-opacity">
@@ -45,7 +49,9 @@ export default function Home() {
         <Image
           src={bottomHeaderImg}
           alt="Features"
-          className="w-full h-auto block"
+          width={335}
+          height={403}
+          className="block"
         />
         <Link href="#" className="block hover:opacity-80 transition-opacity">
           <Image
@@ -56,7 +62,13 @@ export default function Home() {
             className="block"
           />
         </Link>
-        <Image src={footerImg} alt="Footer" className="w-full h-auto block" />
+        <Image
+          src={footerImg}
+          alt="Footer"
+          width={100}
+          height={24}
+          className="block"
+        />
       </div>
     </main>
   );
