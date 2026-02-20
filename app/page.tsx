@@ -33,7 +33,7 @@ export default function Home() {
           alt="Phone Showcase"
           width={374}
           height={472}
-          className="block"
+          className="block w-full h-auto sm:w-[374px]"
           priority
         />
         <Link
