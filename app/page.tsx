@@ -5,7 +5,7 @@ import logoImg from '../public/images/image-1-logo.svg';
 import topHeaderImg from '../public/images/image-2-topHeader.svg';
 import phoneWithHandImg from '../public/images/image-3-phonewithhand.png';
 import appStoreBtnImg from '../public/images/image-4-appstorebutton.svg';
-import bottomHeaderImg from '../public/images/image-5-bottomheaderwithlogo.svg';
+import bottomHeaderImg from '../public/images/image-5-bottomheaderwithlogo.png';
 import footerImg from '../public/images/image-6-footer.svg';
 
 export default function Home() {
